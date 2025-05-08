@@ -22,7 +22,7 @@ class _SplashScreenState extends State<SplashScreen> {
 
   changeScreen() async {
     Future.delayed( Duration(seconds: 3), () async {
-      Get.toNamed(HomeScreen.pageId);
+      Get.offAllNamed(HomeScreen.pageId);
     }
         // Navigator.push(
         //     context, MaterialPageRoute(builder: (context) => LoginScreen()));
